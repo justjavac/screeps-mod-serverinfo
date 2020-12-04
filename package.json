@@ -1,0 +1,23 @@
+{
+  "name": "@screepsmod/serverinfo",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "screeps_mod": true,
+  "keywords": [
+    "screeps"
+  ],
+  "author": "迷渡 <justjavac@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justjavac/screeps-mod-serverinfo.git"
+  },
+  "engines": {
+    "node": ">=10.13.0",
+    "npm": ">=3.10.3"
+  }
+}
