@@ -1,1 +1,3 @@
-module.exports = require('./lib/backend')
+module.exports = function (config) {
+    if (config.backend) require('./lib/backend')(config, auth)
+}
